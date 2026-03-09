@@ -1,12 +1,8 @@
 /**
  * ==========================================================
- * MAIN CLASS - UseCase2PalindromeCheckerApp
+ * MAIN CLASS - PalindromeCheckerApp
  * ==========================================================
- *
  * Use Case 2: Hardcoded Palindrome Validation
- *
- * @author Developer
- * @version 2.0
  */
 
 public class PalindromeCheckerApp {
@@ -16,6 +12,7 @@ public class PalindromeCheckerApp {
         String word = "madam";
 
         boolean isPalindrome = true;
+
         int start = 0;
         int end = word.length() - 1;
 
@@ -29,9 +26,9 @@ public class PalindromeCheckerApp {
         }
 
         if (isPalindrome) {
-            System.out.println(word + " is a Palindrome");
+            System.out.println(word + " is a palindrome");
         } else {
-            System.out.println(word + " is NOT a Palindrome");
+            System.out.println(word + " is not a palindrome");
         }
     }
 }
